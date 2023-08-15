@@ -1,0 +1,27 @@
+1. Baixa o git no computador
+
+*NO TERMINAL:
+
+1. git config --global user.name "SEUNOMEDOGITHUB"
+2. git config --global user.email "SEUEMAILDOGITHUB@GMAIL.COM" 
+(Toda vez que vai criar um repositório novo)
+3. git 
+(Comando que mostra os arquivos reconhecidos e o estado deles)
+4. git status
+(Comando que adiciona os arquivos)
+5. git add .
+6. git -m "ESCREVAUMAMENSAGEMQUEQUEIRA(NOTA)"
+
+*NO GITHUB:
+
+1. Cria um novo repositório (new) e nomeie
+2. Adicione descrição do projeto e a visualização dele
+3. Copie os comandos do "...push an existing repository..."
+4. Cole todos os comandos (de uma vez) e rode os comandos
+
+PALETA DE CORES:
+Tea Green(escuro): #C5EFCB
+Black: #020402
+Reseda Green: #758173
+Celadon: #A9C5A0
+Tea Green (claro): #C6DEC6

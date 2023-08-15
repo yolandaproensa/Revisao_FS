@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    scroll-padding-top: 6rem;
+    scroll-behavior: smooth;
+}
+
+header{
+    background: #758173;
+    height: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+header a{
+    color: #020402;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    border-radius: 2px;
+}
+
+nav{
+    display: flex;
+    gap: 6rem;
+}
+
+header a:hover{
+    background: #C6DEC6;
+    transform: scale(1.1);
+    transition: transform .5s;
+}
+
+section{
+    border: 1px solid #758173;
+    height: calc(100vh - 6rem);
+    padding: 3rem;
+}
+
+#listas{
+    margin-top: 6rem;
+}
+
+div{
+    display: flex;
+    gap: 2rem;
+    align-content: space-between;
+}
+
+section h2{
+    text-align: center;
+}
+
+table, th, td {
+    border: 3px solid #758173;
+    }
+    
+table {
+    border-collapse: collapse;
+    margin: auto;
+}
+
+th, td{
+    padding: 10px;
+    text-align: center;
+    width: 120px;
+}
+
+th{
+    background: #C6DEC6;
+}
+
+#formularios{
+    text-align: center;
+    flex-direction: column;
+}
